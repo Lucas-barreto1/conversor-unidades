@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href='global.css'>
+
+  <title>Conversor de Unidades</title>
+</head>
+
+<body>
+  <div>
+    <form>
+      <div class="wrapper">
+        <h1 class="title">Unit Convert</h1>
+        <div class="medidas-select">
+          <select style="background-color: transparent; border: none; outline: none; color: #dfe6e9;"
+            class="form-control form-control-lg" id="medidas">
+            <option id="medida">Medidas</option>
+            <option>Milhas</option>
+            <option>Quilômetros</option>
+            <option>Centímetros</option>
+          </select>
+        </div>
+        <div class="wrapper-milhas">
+          <input class="dist-milhas" id="milhas" placeholder="Distância">
+        </div>
+        <button type="button" id="calc"><i class="fas fa-exchange-alt fa-3x"></i></button>
+        <div class="wrapper-result">
+          <input id="metros" disabled placeholder="Distância Metros">
+        </div>
+      </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+
+    <!-- Importar calc -->
+    <script src="index.js"></script>
+
+    <!-- Importar Icones dos botões -->
+    <script src='https://kit.fontawesome.com/2c36e9b7b1.js'></script>
+
+
+</body>
+
+</html>
