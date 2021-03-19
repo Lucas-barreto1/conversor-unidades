@@ -109,6 +109,7 @@
 }
 
 @media (min-width: 1024px){
+
   .title{
     font-size: 5em;
   }
@@ -127,7 +128,7 @@
 
   #metros{
     width: 25%;
-    margin-left: 25%;
+    left: 37.5%;
     font-size: 3em;
   }
 
